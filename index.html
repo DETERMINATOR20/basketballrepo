@@ -18,7 +18,33 @@
   </script>
   <link href="https://images.emojiterra.com/google/noto-emoji/v2.034/512px/1f3c0.png" rel="apple-touch-icon" />
 </head>
+<style>
+  video {
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  .video-wrapper {
+    border: 2px solid #000;
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .header{
+    position: relative;
+    color: white;
+    text-shadow: 1px 1px 8px rgba(0,0,0,0.6);
+  }
 
+</style>
 <body>
   <div data-collapse="medium" data-animation="default" data-duration="400" class="navigation-bar w-nav">
     <div class="Whole">
@@ -47,11 +73,22 @@
       </div>
     </div>
   </div>
-  <div class="hero-section centered index" style="background-size: cover; background-position: 50% -20%;">
-    <br>
-    <div data-ix="new-interaction" class="w-container">
-      <h1 class="hero-heading">Welcome</h1>
-      <div class="button">Angus's amazing basketball website has heaps to offer</div>
+  <br>
+  <br>
+  <br>
+  <div class="video-wrapper">
+    <video preload autoplay muted loop style="object-position:50% 25%;">
+      <source src="nbavideo.mp4" type="video/webm">
+      Your browser does not support the video tag.
+    </video>
+    <div class="header">
+      <div class="hero-section centered" >
+        <br>
+        <div data-ix="new-interaction" class="w-container">
+          <h1 class="hero-heading">Welcome</h1>
+          <div class="button">Angus's amazing basketball website has heaps to offer</div>
+        </div>
+      </div>
     </div>
   </div>
   <div class="section">
