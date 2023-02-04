@@ -2710,7 +2710,7 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
 }
 
 .Whole {
-  background-color: black;
+  background-color: rgb(240,240,240);
   z-index: 2;
   align-self: right;
   position: fixed;
@@ -2844,7 +2844,7 @@ html {
         left: -100%;
         top: 6rem;
         flex-direction: column;
-        background-color: #2b2b2b;
+        background-color: rgb(220,220,220);
         width: 100%;
         text-align: center;
         transition: 0.3s;
