@@ -2047,8 +2047,18 @@ textarea.w-input, textarea.w-select {
   .heading-hide {
     display:none;
   }
+
+  .inverseheading-hide {
+    display:auto;
+  }
 }
 
+@media screen and (min-width:670px) {
+  .inverseheading-hide {
+    display:none;
+  }
+
+}
 @media screen and (max-width:479px) {
   .w-tab-link {
     display: block
