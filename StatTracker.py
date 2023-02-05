@@ -41,7 +41,7 @@ c=""
 gn = 1
 wstreak = 0
 lSa = 0
-lSb = 0
+lSb = 1
 lSc = 0
 
 
@@ -137,7 +137,6 @@ def Main() :
             loser = a
         scorer = input("Enter player name that scored ")
         print("\nThe " + winner + " have won against the " + loser + " with \033[4m\033[1;35m" + scorer + "\033[0m winning the game.\n")
-        print("Logging details....")
         if(winner == a) :
             wstreak += 1
             lSb += 1
@@ -157,6 +156,8 @@ def Main() :
         b = c
         c = loser
         gn += 1
+
+        Backup()
 
         con = input("Type anything except for abcd to continue: ")
         if con != ("abcd") :
@@ -180,4 +181,17 @@ def Export() :
 
     print("Exported.")
     x = input("Press enter to exit. ")
+
+def Backup() :
+    print ("Backing up....")
+    global data
+    global gn
+    for i in data: 
+        ws.append(i)
+
+    name = 'DataBackups/' + str(gn) + '.xlsx'
+    wb.save(os.path.join(name))
+
+    print("Backed up.")
+
 Start()
