@@ -48,6 +48,16 @@
   .white-box {
     background-color: rgb(50,50,50);
   }
+
+  @media screen and (max-width: 450px) {
+    .news-image {
+      display: none;
+    }
+
+    .box-title {
+      font-size: x-small;
+    }
+  }
 </style>
 <body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -113,10 +123,10 @@
               <div class="w-col w-col-5 index-set" style=" height: 100%; margin-bottom: 30px; width:100%">
                 <a href="NewsPages/05.html" style="text-decoration: none;">
                   <div class="white-box index-set">
-                    <img src="../Images/Logo.png" alt="" class="" style="max-height:150px; max-width:150px; padding: 30px;"/>
-                    <img src="../Images/LG_Final.png" alt="" class="" style="max-height:150px; max-width:150px; padding: 30px;"/>
-                    <img src="../Images/WW_Final.png" alt="" class="" style="max-height:150px; max-width:150px; padding: 30px;"/>
-                    <img src="../Images/5M_Final.png" alt="" class="" style="max-height:150px; max-width:150px; padding: 30px;"/>
+                    <img src="../Images/Logo.png" alt="" class="news-image" style="max-height:150px; max-width:150px; padding: 30px;"/>
+                    <img src="../Images/LG_Final.png" alt="" class="news-image" style="max-height:150px; max-width:150px; padding: 30px;"/>
+                    <img src="../Images/WW_Final.png" alt="" class="news-image" style="max-height:150px; max-width:150px; padding: 30px;"/>
+                    <img src="../Images/5M_Final.png" alt="" class="news-image" style="max-height:150px; max-width:150px; padding: 30px;"/>
                     <h3>The tournament starts TODAY!</h3>
                     <p>The fixture, official rule book, and website have been released.</p>
                     <h5>6/02</h5>
@@ -128,8 +138,8 @@
               <div class="w-col w-col-5 index-set" style="align:left; height: 100%; margin-bottom: 30px; width:48%">
                 <a href="NewsPages/04.html" style="text-decoration: none;">
                   <div class="white-box index-set">
-                    <img src="../Images/Logo.png" alt="" class="" style="max-height:150px; max-width:150px;"/>
-                    <h3>All-Lunch Team | Preseason Week 1</h3>
+                    <img src="../Images/Logo.png" alt="" class="news-image" style="max-height:150px; max-width:150px;"/>
+                    <h3 class="box-title">All-Lunch Team | Preseason Week 1</h3>
                     <p>Clarrie Jones has announced his All-Lunch top 5 offensive and defensive players of the first week of the preseason.</p>
                     <h5>3/02</h5>
                   </div>
@@ -138,8 +148,8 @@
               <div class="w-col w-col-5 index-set" style="float:right; height: 100%; margin-bottom: 30px; width:48%">
                 <a href="NewsPages/03.html" style="text-decoration: none;">
                   <div class="white-box index-set">
-                    <img src="../Images/MVP_Final.png" width="210" alt="" class="" style="max-height:150px; max-width:150px;"/>
-                    <h3>MVP Rankings | Preseason Week 1</h3>
+                    <img src="../Images/MVP_Final.png" width="210" alt="" class="news-image" style="max-height:150px; max-width:150px;"/>
+                    <h3 class="box-title">MVP Rankings | Preseason Week 1</h3>
                     <p>Clarrie Jones has announced his MVP rankings of the first week of the preseason.</p>
                     <h5>3/02</h5>
                   </div>
@@ -150,9 +160,9 @@
               <div class="w-col w-col-5 index-set" style="float:left; height: 100%; margin-bottom: 30px; width:48%">
                 <a href="NewsPages/02.html" style="text-decoration: none;">
                   <div class="white-box index-set">
-                    <img src="../Images/LG_Final.png" alt="" class="" style="max-height:150px; max-width:150px; border:10px;"/>
-                    <img src="../Images/WW_Final.png" alt="" class="" style="max-height:150px; max-width:150px; border:10px;"/>
-                    <h3>TRADE</h3>
+                    <img src="../Images/LG_Final.png" alt="" class="news-image" style="max-height:150px; max-width:150px; border:10px;"/>
+                    <img src="../Images/WW_Final.png" alt="" class="news-image" style="max-height:150px; max-width:150px; border:10px;"/>
+                    <h3 class="box-title">TRADE</h3>
                     <p>William Weekes of the Loose Gooses has been traded for Shaun Alexiou of the Wet Willies.</p>
                     <h5>2/02</h5>
                   </div>
@@ -161,9 +171,9 @@
               <div class="w-col w-col-5 index-set" style="float:right; height: 100%; margin-bottom: 30px; width:48%" id="bottom">
                 <a href="NewsPages/01.html" style="text-decoration: none;">
                   <div class="white-box index-set">
-                    <img src="../Images/WW_Final.png" alt="" class="" style="max-height:150px; max-width:150px; border:10px;"/>
-                    <img src="../Images/5M_Final.png" alt="" class="" style="max-height:150px; max-width:150px; border:10px;"/>
-                    <h3>TRADE</h3>
+                    <img src="../Images/WW_Final.png" alt="" class="news-image" style="max-height:150px; max-width:150px; border:10px;"/>
+                    <img src="../Images/5M_Final.png" alt="" class="news-image" style="max-height:150px; max-width:150px; border:10px;"/>
+                    <h3 class="box-title">TRADE</h3>
                     <p>Conor Farrington and Sam James of the Wet Willies have been traded for Ryan Pattemore of the 5 Musketeers.</p>
                     <h5>2/02</h5>
                   </div>
