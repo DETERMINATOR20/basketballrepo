@@ -15,6 +15,7 @@ else:
     # Re-run the program with admin rights
     sys.stdout.write('Not running as admin, relaunching...?\n')
     ctypes.windll.shell32.ShellExecuteW(None, "runas", sys.executable, __file__, None, 1)
+    exit(0)
 
 import os
 os.system('')
