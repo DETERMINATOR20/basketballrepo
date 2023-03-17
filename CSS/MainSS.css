@@ -2992,7 +2992,7 @@ html {
 
 @media screen and (min-width:1441px) {
   .index-set {
-    height: 320px;
+    min-height: 400px;
   }
 }
 
@@ -3112,4 +3112,35 @@ html {
   .video-container iframe {
     width: 177.78vh;
   }
+}
+
+.largeNews {
+  width: 100%;
+}
+
+.normalNews {
+  width:48%;
+}
+
+@media screen and (max-width: 800px) {
+  .normalNews{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .lessImportantImage {
+    display: none;
+  }
+
+  .news-image { 
+    height: auto;
+    width: 20%;
+  }
+}
+
+.news-image {
+  max-width: 140px;
+  max-height: 140px;
+  padding: 10px
 }
