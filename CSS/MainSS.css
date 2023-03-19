@@ -2873,6 +2873,7 @@ html {
 
     .nav-item {
         margin: 2.5rem 0;
+        width: 100%;
     }
 
     .hamburger {
@@ -2925,6 +2926,10 @@ html {
 
 .mvp {
   background-image: url("../Images/jokic-mvp.jpg");
+}
+
+.gf {
+  background-image: url("../Images/GF.jpeg");
 }
 
 .rules {
