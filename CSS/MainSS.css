@@ -718,7 +718,7 @@ textarea.w-input, textarea.w-select {
   display: none !important
 }
 
-@media screen and (max-width:1100px) {
+@media screen and (max-width:1250px) {
   .heading {
     text-align: center;
     width:100%
